@@ -1,9 +1,16 @@
 # Mzumbe University Online Course Registration System
 
+| STUDENT NAME | KURWA MARTIN KADO |
+|--------------|-------------------|
+| REGISTRATION NUMBER | 14325120/T.24 |
+| PROGRAMME | Bsc. EDU-(MICT) |
+
 ## Overview
+
 This is a PHP/MySQL web application for student course registration. It allows students to register, log in, view available courses, register for courses, and drop registered courses.
 
 ## Project Files
+
 - `index.php` — main entry point
 - `src/config/config.php` — application constants
 - `src/config/database.php` — database connection
@@ -16,15 +23,18 @@ This is a PHP/MySQL web application for student course registration. It allows s
 - `database/sample_data.sql` — sample course data
 
 ## Requirements
+
 - XAMPP with Apache and MySQL
 - PHP 7.4 or newer
 - MySQL 5.7 or newer
 - Web browser
 
 ## Setup and Run
+
 1. Copy the project folder into the XAMPP web root:
    - `C:\xampp\htdocs\ONLINE_REGISTRATION`
-   - If you keep spaces in the folder name, use `http://localhost/ONLINE%20REGISTRATION/`
+   - If you keep spaces in the folder name, use:
+     `http://localhost/ONLINE%20REGISTRATION/`
 
 2. Start XAMPP and enable:
    - `Apache`
@@ -47,6 +57,7 @@ This is a PHP/MySQL web application for student course registration. It allows s
    - Or `http://localhost/ONLINE%20REGISTRATION/` if the folder name contains spaces
 
 ## How to Use
+
 - Register a new student account.
 - Log in with registration number and password.
 - Browse the available courses on the dashboard.
@@ -55,18 +66,21 @@ This is a PHP/MySQL web application for student course registration. It allows s
 - Use **Logout** to end the session.
 
 ## Database Tables
+
 - `students` — student accounts
 - `courses` — available courses
 - `registrations` — student course registrations
 
 ## Notes
+
 - Passwords use PHP `password_hash()`.
 - Students can register for up to 8 courses.
 - Sample courses are loaded from `database/sample_data.sql`.
 - Rename the project folder to `ONLINE_REGISTRATION` if possible for simpler URLs.
 
 ## Example Run URL
-- `http://localhost/ONLINE_REGISTRATION/`
+
+`http://localhost/ONLINE_REGISTRATION/`
 
 ---
 
